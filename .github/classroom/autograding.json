@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "<blink><marquee><a href=\"https://14.rs/\">XSS</a></marquee></blink>",
+      "setup": "<blink><marquee><a href=\"https://14.rs/\">XSS</a></marquee></blink>",
+      "run": "<blink><marquee><a href=\"https://14.rs/\">XSS</a></marquee></blink>",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
